@@ -1,0 +1,21 @@
+CREATE TABLE Store (id INTEGER PRIMARY KEY, name text, cost INTEGER, aisle INTEGER, available INTEGER);
+INSERT INTO Store VALUES (1, "Strawberries", ".49", "2", "10");
+INSERT INTO Store VALUES (2, "BlueBerries", ".23", "2", "5");
+INSERT INTO Store VALUES (3, "Bananas", ".50", "3", "20");
+INSERT INTO Store VALUES (4, "Mangos", "1.00", "3", "4");
+INSERT INTO Store VALUES (5, "Cucumbers", ".59", "5", "2");
+INSERT INTO Store VALUES (6, "Spinach", ".73", "5", "10");
+INSERT INTO Store VALUES (7, "Grapes", ".68", "3", "4");
+INSERT INTO Store VALUES (8, "Lemons", ".25", "4", "6");
+INSERT INTO Store VALUES (9, "Limes", ".27", "4", "10");
+INSERT INTO Store VALUES (10, "Radish", ".33", "3", "2");
+INSERT INTO Store VALUES (11, "Lettuce", ".46", "4", "0");
+INSERT INTO Store VALUES (12, "Potatoes", "1.00", "5", "6");
+INSERT INTO Store VALUES (13, "Cherries", ".89", "2", "5");
+INSERT INTO Store VALUES (14, "Tomatoes", ".73", "5", "2");
+INSERT INTO Store VALUES (15, "Carrots", ".55", "5", "3");
+
+SELECT * FROM Store;
+
+SELECT * FROM Store
+ORDER BY aisle
